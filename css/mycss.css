@@ -1,0 +1,34 @@
+/*
+div{
+    background-color: navy;
+} 
+*/
+
+.a1{
+    /*
+    background-color: aqua;
+    border:2px solid black;
+    */
+    text-align: center;
+    
+}
+
+.h1font{
+    color: brown; text-align: center;
+}    
+
+.bph1 
+{
+    color: crimson; 
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.a3{
+    background-color: green;
+}
+
+.a4{
+    background-color: yellowgreen;
+}
