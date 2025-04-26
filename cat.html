@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <link rel="stylesheet" href="./css/cat.css">
         <script>
             function validateForm() {
                 let anss="";
                 
                 let x = document.forms["myForm"]["user_n"].value;
                 if (x != "") {
-                    anss= anss + "Name : " + x +"\n";
+                    anss= anss + "Email ID :" + x +"\n";
                 }
     
                 x = document.forms["myForm"]["user_1"].value;
                 if (x != "") {
-                    anss=anss +"Email ID : " +  x +"\n";
+                    anss=anss +"Name : " +  x +"\n";
                 }
     
                 x = document.forms["myForm"]["user_2"].value;
@@ -33,7 +32,7 @@
              <h3> 
                 <form action="cat2.html"  method="post">
                 Email: <input type="email" name="" value=""><br><br>
-                  Name: <input type="user name" name="" value=""><br><br>
+                  Name: <input type="" name="" value=""><br><br>
                   Password: <input type="password" name="" value=""><br><br><br><br>
                   <input type="submit" name="" value="SUBMIT">
 
